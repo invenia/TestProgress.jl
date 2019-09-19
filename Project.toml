@@ -3,11 +3,14 @@ uuid = "7d0e0262-a715-4739-92ad-c01e50d9a63c"
 authors = ["Invenia Technical Computing Corporation"]
 version = "0.1.0"
 
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
 [compat]
 julia = "1"
 
 [extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 
 [targets]
-test = ["Test"]
+test = ["Suppressor"]
