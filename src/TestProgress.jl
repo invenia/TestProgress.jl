@@ -3,7 +3,7 @@ module TestProgress
 export LoudTestSet
 
 using Test
-using Test: AbstractTestSet, DefaultTestSet, Pass, finish, get_testset_depth, record
+using Test: AbstractTestSet, DefaultTestSet, Pass, finish, record
 
 const DOT = '•'
 
