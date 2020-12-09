@@ -1,6 +1,6 @@
 # TestProgress
 
-[![Build Status](https://travis-ci.com/invenia/TestProgress.jl.svg?branch=master)](https://travis-ci.com/invenia/TestProgress.jl)
+[![CI](https://github.com/Invenia/TestProgress.jl/workflows/CI/badge.svg)](https://github.com/Invenia/TestProgress.jl/actions?query=workflow%3ACI)
 [![Codecov](https://codecov.io/gh/invenia/TestProgress.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/invenia/TestProgress.jl)
 
 Letting you know your tests are making progress, by printing a green dot • every time a test passes, and announcing when a `@testset` is finished:
